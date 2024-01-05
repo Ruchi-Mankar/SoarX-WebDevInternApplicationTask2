@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(bg2.gif);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    margin: 40px;
+}
+a{
+    text-decoration: none;
+}
+#Home{
+    text-decoration: none;
+    font-size:x-large;
+    font-weight: bolder;
+    color: aliceblue;
+}
+#poster {
+    display: flex;
+    align-items: center; 
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#poster img {
+    height: 200px;
+    width: 320px;
+    border-radius: 18px; 
+}
+
+#poster h1 {
+    margin-left: 20px; 
+    color: white; 
+    font-size: 44px; 
+}
+.container {
+    display:flex;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    flex-wrap: wrap;
+}
+#description, #registration-form,#other-details{
+    flex: 1; /* Equal width for all three divs */
+    max-width: calc(100% / 3); /* Calculate width based on container */
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding and border in total width */
+    overflow-wrap: break-word; /* Wrap long words */
+}
+
+#registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#registration-form input,
+#registration-form button {
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#button{
+    background-color: black;
+    color: darkgoldenrod;
+    font-size: large;
+    font-weight: bolder;
+}
+#button:hover{
+    background-color: goldenrod;
+    color: black;
+}

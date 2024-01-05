@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="#" id="Home">Royals</a>
+    </nav>
+    <div id="poster">
+        <img src="eventposter.png" alt="Event Poster">
+        <h1>Golden Gala: The Royal Ball Spectacle</h1>
+    </div>
+
+    <div class="container">
+        <div id="description">
+            <p>Hosted By</p>
+            <p>The Royal Family</p>
+            <p>31st January, 2024 18:00 onwards</p>
+        </div>
+        
+        <form id="registration-form" 
+        method="POST" 
+        action="https://script.google.com/macros/s/AKfycbwBmaMdVTWutu4Vwli7AF4R1r-F_it8X8nwXvtBs3svtIi1frNy3kwDuysfl6V11-3ZUQ/exec"
+        onsubmit="submitForm(event)">
+            <input type="datetime-local" id="Date" placeholder="Date of Registration" required>
+            <input type="text" name="Name" placeholder="Name" required>
+            <input type="email" name="Email" placeholder="Email" required>
+            <input type="tel" name="Contact" placeholder="Contact" required>
+            <input type="text" name="College" placeholder="College" required>
+            <input type="text" name="Branch" placeholder="Branch" required>
+            <input type="text" name="Year" placeholder="Year" required>
+            <button type="submit" id="button">Register</button>
+        </form>
+
+        <div id="other-details">
+            <p>About the event:</p>
+            <p>The gala will last all night long.</p>
+            <p>Food and drinks will be served</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
