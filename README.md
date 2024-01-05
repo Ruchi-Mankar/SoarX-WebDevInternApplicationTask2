@@ -12,7 +12,7 @@ JavaScript
 Google Apps Script  
 Google Sheets API  
 ### Setup and Installation  
-Clone the repository:  
+Clone the repository:  'https://github.com/Ruchi-Mankar/SoarX-WebDevInternApplicationTask2.git'  
 Open the index.html file in a web browser to view the landing page.  
 ### Google Apps Script Setup  
 Create a new Google Apps Script project.  
@@ -20,3 +20,4 @@ Copy and paste the Google Apps Script code for form submission and data storage.
 Deploy the Google Apps Script web app and obtain the web app URL.  
 Update the scriptURL variable in the JavaScript code with the web app URL.  
 ### Website  
+https://ruchi-mankar.github.io/SoarX-WebDevInternApplicationTask2/  
