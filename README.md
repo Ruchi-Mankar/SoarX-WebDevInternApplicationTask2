@@ -63,3 +63,5 @@ function doPost (e) {
 4. Update the scriptURL variable in the JavaScript code with the web app URL.  
 ### Website  
 https://ruchi-mankar.github.io/SoarX-WebDevInternApplicationTask2/  
+### Google Sheet:  
+https://docs.google.com/spreadsheets/d/1zJRKtUyL0Es8bFpp6T657-gILaKRU-br72NF0lt5SXI/edit?usp=sharing
